@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://cooble.github.io/sitemap.xml
