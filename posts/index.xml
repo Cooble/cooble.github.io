@@ -1,103 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on The Coding Notes</title>
+    <title>Posts on Cobble&#39;s Personal Blog</title>
     <link>https://cooble.github.io/posts/</link>
-    <description>Recent content in Posts on The Coding Notes</description>
+    <description>Recent content in Posts on Cobble&#39;s Personal Blog</description>
     <image>
-      <url>https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=720&q=80</url>
-      <link>https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=720&q=80</link>
+      <url>https://cooble.github.io/papermod-cover.png</url>
+      <link>https://cooble.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Learn Rust by Building a Full-stack Todo Application</title>
-      <link>https://cooble.github.io/posts/learn-rust-fullstack/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <title>Lua, Items and XMas</title>
+      <link>https://cooble.github.io/posts/niceday/_posts/2019-12-24-lua/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cooble.github.io/posts/learn-rust-fullstack/</guid>
-      <description>What I want to write a blog about how I learned Rust.
-Please forgive me that I just started learning such a great programming language in 2022.
-To learn Rust by doing, I have built a full-stack todo application.
-You can try it here. The source code is available at GitHub.
-Here I am going to write about how to build it.
-How Firstly, as everyone beginning, I learn Rust from the book as well.</description>
+      <guid>https://cooble.github.io/posts/niceday/_posts/2019-12-24-lua/</guid>
+      <description>Even though adding scripting language to the engine was in DEEP FUTURE plans, once I realized how easy it would be to just rewrite one text line, hit enter and spawn particles with slightly tweaked velocities instead of recompiling the whole game again I finally decided that that time had come. Ladies and gentlemen, Brace yourself for&amp;hellip;
+The Story of adding Lua: Adding lua itself was the easiest thing, simply add statically native lua lib and that was it, then I used ConsoleWindow template found in imgui_demo.</description>
     </item>
     
     <item>
-      <title>Kotlin Weird Equality</title>
-      <link>https://cooble.github.io/posts/kotlin-equality-diving/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <title>GUI Module (Engine)</title>
+      <link>https://cooble.github.io/posts/niceday/_posts/2019-11-23-gui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cooble.github.io/posts/kotlin-equality-diving/</guid>
-      <description>Recently, I encountered a weird equality question about Kotlin which does not usually get much attention while coding. So here is the thought process.
-Background The following code snippet is using Kotlin 1.3.72.
-The business logic of it has been removed and only remained the code structure for reproducing the question.
-// a enum for state enum class MyState { OK, CANCELED } // it might return nullable MyState fun processing(): MyState?</description>
+      <guid>https://cooble.github.io/posts/niceday/_posts/2019-11-23-gui/</guid>
+      <description>We all know that making a GUI from scratch can be truly difficult and time consuming and maybe even boring, it would make sense then if engine provided such a thing, wouldn&amp;rsquo;t it? Ok, Ok, lets do it&amp;hellip; (I could have just used IMGUI but&amp;hellip;)
+Basic GUI module in engine (13_11_2019) in order to start with inventory, one must create some sort of GUI before&amp;hellip; currently contains Windows (which can overlap), Label, Button, CheckBox, TextBox, HorizontalSlider and Image + layouts: (Column, Row, Grid) There is one GUIContext which cares about parent-child structure and events of GUIElements and GUIRenderer, which renders those elements positions are relative to the parental element currently no resizability to change a color, one has to change the GUIRenderer Advanced GUI in engine (23_11_2019) Added view, (which is rendered to another texture before being rendered on the screen) Better text render, added kerning!</description>
     </item>
     
     <item>
-      <title>Generate Converter for Kotlin Class by KAPT</title>
-      <link>https://cooble.github.io/posts/konverter/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Lights, Day/Night cycle, Entities</title>
+      <link>https://cooble.github.io/posts/niceday/_posts/2019-08-12-dynamic-lights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cooble.github.io/posts/konverter/</guid>
-      <description>Background In web backend development, the operation of an entity need to code a number of similar classes to handle request (avoiding the direct use of entities), which resulting in related terminology:
-PO (Persistent Object) DTO (Data Transfer Object) BO (Business Object) VO (View Object) Most of these classes trim a few fields directly from the entity. For example, by using OrderEntity in a request to create an order, it would process like following:</description>
+      <guid>https://cooble.github.io/posts/niceday/_posts/2019-08-12-dynamic-lights/</guid>
+      <description>Multithreaded lights, Inheritance Entity System (maybe will change to ECS in the future)(22_07_2019) Added NBT to save and load entities. (No entity saving yet, though.) Added basic physics system with polygon collision detection. In the pic: The first entity after Player was (who would have guessed&amp;hellip;) TNT!
+In the pic: red Zombie attacks black Player. (and then mysteriously disappears up in the sky)
+Smooth wallLight vs edgy blockLight, Day/Night cycle (12_08_2019) Added dynamically created TextureAtlas.</description>
     </item>
     
     <item>
-      <title>Reactive Overview</title>
-      <link>https://cooble.github.io/posts/reactive-overview/</link>
-      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      <title>ParticleSystem, Trees, Flowers, PlayerSprite</title>
+      <link>https://cooble.github.io/posts/niceday/_posts/2019-08-25-particles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cooble.github.io/posts/reactive-overview/</guid>
-      <description>Reactive Streams Reactive Streams started as an initiative in late 2013 between engineers at Netflix, Pivotal and Lightbend.
-Reactive Streams is an initiative to provide a standard for asynchronous stream processing with non-blocking back pressure. This encompasses efforts aimed at runtime environments (JVM and JavaScript) as well as network protocols.
-You can read the origin specification on official website of Reactive Streams.
-Also, you can read the Chinese translation from here.</description>
+      <guid>https://cooble.github.io/posts/niceday/_posts/2019-08-25-particles/</guid>
+      <description>Ability to walk on blocks which are 1high without jumping. Player has a walk animation. Added entity health bar. Crude ParticleSystem using BatchRenderer2D temporarily, will have its own renderer with shader in the future. Can do 3500 particles without a problem. Added multiblock structure = tree and its generator. After placing a sapling block, sapling tile entity counts the worldtime and then calls TreeGen. Trees have random number of branches(dry or normal) and random corona.</description>
     </item>
     
     <item>
-      <title>Choose An English Name</title>
-      <link>https://cooble.github.io/posts/choose-english-name/</link>
-      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      <title>The Great Start</title>
+      <link>https://cooble.github.io/posts/niceday/_posts/2019-06-19-great-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cooble.github.io/posts/choose-english-name/</guid>
-      <description>Introduction I am Lixin Cao in Chinese Pinyin. I was finding a way to give myself an English name, then I found a post, How to choose an English name, which gives an useful method for choosing an English name, by which I made a program to help choose an English name.
-You can try it here.
-I will cover some detail of the post and the program in the below.</description>
-    </item>
-    
-    <item>
-      <title>Jekyll / Hugo / Hexo Comparison</title>
-      <link>https://cooble.github.io/posts/jekyll-hugo-hexo/</link>
-      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://cooble.github.io/posts/jekyll-hugo-hexo/</guid>
-      <description>It is hard to choose a suitable static website generator, especially when you want to build website like blog for the first time. This is my first time to build a blog and have not enough time to go through some popular generators, which I have chosen Jekyll at the beginning but it is not a best one. In the future I am going to try another generators.
-Here is some brief information I found from Google and hope it should be useful for you to decide starting up on what generator.</description>
-    </item>
-    
-    <item>
-      <title>Jekyll Multi-Language without Plugin</title>
-      <link>https://cooble.github.io/posts/jekyll-multi-language-without-plugin/</link>
-      <pubDate>Sun, 27 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://cooble.github.io/posts/jekyll-multi-language-without-plugin/</guid>
-      <description>Goal Support multi-language, mainly in English and supplemented by Chinese; When visiting pages begin with /, e.g. /about.html, /posts/hello-world, English pages would be shown; When visiting pages began with /zh/, e.g. /zh/about.html, /zh/posts/hello-world, Chinese pages would be shown; When visiting ../hello-world posts, corresponding langugage posts would be jumped via the link; Posts which are specified language would only be shown in archive and index pages. Defect As 404.html page was not supported for separate language file, two langugage content would be shown on it at the same time.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://cooble.github.io/posts/hello-world/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://cooble.github.io/posts/hello-world/</guid>
-      <description>Hello World Blog configuration:
-Static Website Generation Jekyll 3.8.5 Ruby 2.6.0 Lagrange theme Website Aynalysis Google Analysis Baidu Analysis Deployment GitHub Pages This is my first post, which I would like to note the beginning of the blog as the simplest &amp;ldquo;hello world&amp;rdquo; and how to build such blog by yourself.
-The article will contain three steps:
-Choose type of blog Prepare something needed Compose them Step 01 Choose Type of Blog There are static websites and dynamic websites depending on whether the frontend web page interacts with the backend server or database.</description>
+      <guid>https://cooble.github.io/posts/niceday/_posts/2019-06-19-great-start/</guid>
+      <description>Pictured changelog: Basic tile render (03_05_2019) Corner tile render (06_05_2019) Lighting prototype with water-spill-algorithm (18_05_2019) Platforms, grass, sky (20_05_2019) Blocks, Walls, Background (26_05_2019) Colorful block corners, glass, procedural chunk generation (14_06_2019) Dynamic and Cached monochromatic lighting system (19_06_2019) Cached lighting is only calculated onBlockChange </description>
     </item>
     
   </channel>

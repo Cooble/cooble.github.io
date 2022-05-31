@@ -2,76 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cooble.github.io/posts/learn-rust-fullstack/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/posts/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/practice/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/rust/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+    <loc>https://cooble.github.io/aboutme/</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cooble.github.io/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cooble.github.io/posts/kotlin-equality-diving/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
+    <loc>https://cooble.github.io/posts/niceday/_posts/2019-12-24-lua/</loc>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cooble.github.io/tags/backend/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+    <loc>https://cooble.github.io/tags/niceday/</loc>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cooble.github.io/posts/konverter/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+    <loc>https://cooble.github.io/posts/</loc>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cooble.github.io/tags/kotlin/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+    <loc>https://cooble.github.io/tags/</loc>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cooble.github.io/tags/library/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/document/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/reactive/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/posts/reactive-overview/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/posts/choose-english-name/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/english/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/tutorial/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/blog/</loc>
-    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/posts/jekyll-hugo-hexo/</loc>
-    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/posts/jekyll-multi-language-without-plugin/</loc>
-    <lastmod>2019-10-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/about/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/posts/hello-world/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <loc>https://cooble.github.io/archives.fr/</loc>
   </url><url>
     <loc>https://cooble.github.io/archives/</loc>
   </url><url>
-    <loc>https://cooble.github.io/projects/</loc>
+    <loc>https://cooble.github.io/categories/</loc>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/_posts/2019-11-23-gui/</loc>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/_posts/2019-08-12-dynamic-lights/</loc>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/_posts/2019-08-25-particles/</loc>
   </url><url>
     <loc>https://cooble.github.io/search/</loc>
+  </url><url>
+    <loc>https://cooble.github.io/search.fr/</loc>
+  </url><url>
+    <loc>https://cooble.github.io/series/</loc>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/_posts/2019-06-19-great-start/</loc>
   </url>
 </urlset>
