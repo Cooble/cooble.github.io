@@ -107,11 +107,11 @@ params:
 
     socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+          url: "https://github.com/cooble"
         - name: Discord
-          url: "https://discord.gg/ahpmTvhVmp"
-        - name: RsS
-          url: "index.xml"
+          url: "https://discord.gg/thecherno"
+        - name: email
+          url: "mailto:minekoza@gmail.com"
 
     # label:
     #     text: "Home"
@@ -156,25 +156,6 @@ markup:
 #         style: monokai
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
     youtube:
         disabled: false
         privacyEnhanced: true
-
-services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true

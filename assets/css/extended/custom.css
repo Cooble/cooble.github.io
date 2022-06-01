@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-container > div {
+    margin: 0px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+
+
+  }
+  
+  .flex-container > :first-child  {
+    margin-right: 50px;
+  }
+  .flex-container > :last-child  {
+    margin-left: 20px;
+  }
+  .roundboxik{
+      position: relative;
+      margin-bottom: var(--gap);
+      padding: var(--gap);
+      background: var(--entry);
+      border-radius: var(--radius);
+      transition: transform .1s;
+      border: 1px solid var(--border);
+  }

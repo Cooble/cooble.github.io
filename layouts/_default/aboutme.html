@@ -1,0 +1,53 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+        {{- partial "translation_list.html" . -}}
+    </div>
+    {{- end }}
+</header>
+  <div class="flex-container roundboxik">
+      <div>
+        <h2>Info &nbsp</h2>
+        <br>
+        <strong>Name:</strong> Matěj Černý (Cobble)
+        <br>
+        <strong>Country:</strong> Czech Republic
+        <hr style="height:10px; visibility:hidden;margin: 0;" />
+        Self-taught Java, C++ programmer
+        <br>
+        Studies at the University of West Bohemia in Pilsen
+        <br>
+        Loves SolidStateTeslaCoils and C++!
+        <hr style="height:10px; visibility:hidden; margin: 0;" />
+        <strong>Github:</strong>
+        <span><a href="https://github.com/Cooble/"><u>Cobble</u></a></span>
+        <br>
+        <strong>Discord:</strong>
+        <span>Cobble#3616 <a href="https://thecherno.com/discord"><u>thecherno</u></a></span>
+      </div>
+      <div>
+          <h2 style="margin-left: -0.8em;">Experience</h2>
+          <br>
+          <ul>
+              <li>Java</li>
+              <li>C++ (Game Engines)</li>
+              <li>OpenGL</li>
+              <li>Vulkan (a bit)</li>
+              <li>Rapberry PI</li>
+              <li>Arduino / Atmega328</li>
+              <li>Python, C#, Web, ...</li>
+          </ul>
+      </div>
+  </div>
+
+
+{{- end }}{{/* end main */}}
