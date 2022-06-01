@@ -11,18 +11,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>https://cooble.github.io/aboutme/</link>
-      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cooble.github.io/aboutme/</guid>
-      <description>Name: Matěj Černý (Cobble) Country: Czech Republic
-Self-taught Java, C++ programmer Studies at the University of West Bohemia in Pilsen Loves SolidStateTeslaCoils and C++!
-Experience Java C++ (Game Engines) OpenGL Vulkan (a bit) Rapberry PI Arduino / Atmega328 Python, C#, Web, &amp;hellip; Github: Cobble Discord: Cobble#3616 thecherno
-ChristmasAdventureGame - 2nd place at ITnetwork Summer 2017 Competition (Java): Point-and-click adventure game with a story, puzzles, pixel art and even fully voiced dialog in two languages.</description>
-    </item>
-    
-    <item>
       <title>Lua, Items and XMas</title>
       <link>https://cooble.github.io/posts/niceday/_posts/2019-12-24-lua/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
@@ -32,6 +20,14 @@ ChristmasAdventureGame - 2nd place at ITnetwork Summer 2017 Competition (Java): 
 The Story of adding Lua: Adding lua itself was the easiest thing, simply add statically native lua lib and that was it, then I used ConsoleWindow template found in imgui_demo.</description>
     </item>
     
+    <item>
+      <title>About Me</title>
+      <link>https://cooble.github.io/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cooble.github.io/aboutme/</guid>
+      <description></description>
+    </item>
     
     
     <item>
@@ -63,7 +59,6 @@ Smooth wallLight vs edgy blockLight, Day/Night cycle (12_08_2019) Added dynamica
       <guid>https://cooble.github.io/posts/niceday/_posts/2019-08-25-particles/</guid>
       <description>Ability to walk on blocks which are 1high without jumping. Player has a walk animation. Added entity health bar. Crude ParticleSystem using BatchRenderer2D temporarily, will have its own renderer with shader in the future. Can do 3500 particles without a problem. Added multiblock structure = tree and its generator. After placing a sapling block, sapling tile entity counts the worldtime and then calls TreeGen. Trees have random number of branches(dry or normal) and random corona.</description>
     </item>
-    
     
     
     <item>
