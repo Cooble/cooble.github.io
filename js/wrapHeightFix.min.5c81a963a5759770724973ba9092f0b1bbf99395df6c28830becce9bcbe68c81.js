@@ -1,0 +1,1 @@
+var detectWrap=function(o){for(var e={},t={},s=document.getElementById(o).children,n=0;n<s.length;n++){if(t=s[n].getBoundingClientRect(),e&&e.top<t.top)return!0;e=t}return!1},onResiz=function(){document.documentElement.style.setProperty('--header-height-multiplier',detectWrap('wrapping-header')?2:1)};window.onresize=onResiz,document.addEventListener('DOMContentLoaded',onResiz,!1)

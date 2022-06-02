@@ -1,1 +1,0 @@
-var detectWrap=function(o){for(var e={},t={},s=document.getElementById(o).children,n=0;n<s.length;n++){if(t=s[n].getBoundingClientRect(),e&&e.top<t.top)return!0;e=t}return!1},onResiz=function(){};window.onresize=onResiz,document.addEventListener('DOMContentLoaded',onResiz,!1)
