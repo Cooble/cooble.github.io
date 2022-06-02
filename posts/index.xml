@@ -9,7 +9,17 @@
       <link>https://cooble.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PaperMod Site Height Fix</title>
+      <link>https://cooble.github.io/posts/2022-06-02-hugo-height-fix/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cooble.github.io/posts/2022-06-02-hugo-height-fix/</guid>
+      <description>Ever since I caught a glimpse of the elegant PaperMod theme of Hugo static site builder, I knew I got to use it. While PaperMod theme is very slick and fast it has a few minor drawbacks, which need to be addressed.
+One of them being wrong height of the title page when navigation element is wrapped. This looks kinda cumbersome mainly on mobile devices, where, the page is just too high when no content is shown.</description>
+    </item>
+    
     <item>
       <title>Lua, Items and XMas</title>
       <link>https://cooble.github.io/posts/niceday/_posts/2019-12-24-lua/</link>

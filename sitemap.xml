@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cooble.github.io/</loc>
-    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/tags/hugo/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/2022-06-02-hugo-height-fix/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/tags/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cooble.github.io/posts/niceday/_posts/2019-12-24-lua/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cooble.github.io/tags/niceday/</loc>
-    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/posts/</loc>
-    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cooble.github.io/tags/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cooble.github.io/aboutme/</loc>
