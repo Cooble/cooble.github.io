@@ -62,6 +62,7 @@ var onResiz = function (event) {
     // wrapping-header id needs to be added to the header in header.html
     document.documentElement.style.setProperty('--header-height-multiplier', 
         detectWrap('wrapping-header') ? 2 : 1); 
+
 };
 window.onresize = onResiz;
 document.addEventListener('DOMContentLoaded',onResiz, false);

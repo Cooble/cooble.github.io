@@ -14,7 +14,7 @@ var detectWrap = function (parentID) {
 }
 
 var onResiz = function (event) {
-    //document.documentElement.style.setProperty('--header-height-multiplier', detectWrap('wrapping-header')?2:1);
+    document.documentElement.style.setProperty('--header-height-multiplier', detectWrap('wrapping-header')?2:1);
 };
 window.onresize = onResiz;
 document.addEventListener('DOMContentLoaded',onResiz, false);
