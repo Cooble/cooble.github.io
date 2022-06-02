@@ -31,7 +31,7 @@ languages:
             # imageTitle: my image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "☄️ C++ | ⚙️ Game Engines | ☕ Java | 電 Electronics"
+            subtitle: "☄️&nbsp;C++ | ⚙️&nbsp;Game&nbspEngines | ☕&nbsp;Java | 電&nbsp;Electronics"
             buttons:
                 - name: About
                   url: aboutme
@@ -40,10 +40,10 @@ languages:
         menu:
             main:
                 - name: About Me
-                  url: aboutme
+                  url: aboutme/
                   weight: 5
                 - name: Archive
-                  url: archives
+                  url: archives/
                   weight: 5
                 - name: Search
                   url: search/

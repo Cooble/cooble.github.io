@@ -26,3 +26,7 @@
       transition: transform .1s;
       border: 1px solid var(--border);
   }
+
+  .unwraptext{
+    white-space: nowrap;
+  }
