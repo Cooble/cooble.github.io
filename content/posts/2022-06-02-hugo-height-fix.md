@@ -13,9 +13,9 @@ One of them being wrong height of the title page when navigation element is wrap
 ![Wrong Page Height On Mobile Devices](/wrong_height.png#center)
 Here we have it fixed:
 ![Fixed Page Height On Mobile Devices](/right_height.png#center)
-In PaperMod many theme variables are hardcoded to css file, such as header and footer heights. 
 
 ## Fix
+In PaperMod many theme variables are hardcoded to css file, such as header and footer heights. 
 ```css
 :root {
     ...
