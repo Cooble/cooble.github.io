@@ -6,6 +6,7 @@ date: 2020-07-14
 ShowToc: false
 categories:
 - NiceDay
+GitLink: https://github.com/Cooble/Niceday
 cover: 
     image: https://github.com/Cooble/NiceDay/raw/master/screenshots/09_07_2020_scene_layout.png
 ---

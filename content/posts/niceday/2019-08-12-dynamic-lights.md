@@ -6,6 +6,7 @@ date: 2019-08-12
 ShowToc: false
 categories:
 - NiceDay
+GitLink: https://github.com/Cooble/Niceday
 cover:
     image: https://github.com/Cooble/NiceDay/raw/master/screenshots/12_08_2019.png
 ---

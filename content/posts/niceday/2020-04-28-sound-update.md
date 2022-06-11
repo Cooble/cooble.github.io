@@ -6,6 +6,7 @@ date: 2020-04-28
 ShowToc: false
 categories:
 - NiceDay
+GitLink: https://github.com/Cooble/Niceday
 cover: 
     image: https://github.com/Cooble/NiceDay/raw/master/screenshots/28_04_2020_dayNight.gif
 ---
