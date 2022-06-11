@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cooble.github.io/categories/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cooble.github.io/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,28 +20,48 @@
     <loc>https://cooble.github.io/tags/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cooble.github.io/posts/niceday/_posts/2019-12-24-lua/</loc>
+    <loc>https://cooble.github.io/categories/website/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2021-01-26-block-dig-utf8/</loc>
+    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/categories/niceday/</loc>
+    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2020-09-25-3d-editor-update/</loc>
+    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2020-07-14-json-blocks/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2020-04-28-sound-update/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2019-12-24-lua/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cooble.github.io/tags/niceday/</loc>
-    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
+    <loc>https://cooble.github.io/posts/niceday/2019-11-23-gui/</loc>
+    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2019-08-25-particles/</loc>
+    <lastmod>2019-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2019-08-12-dynamic-lights/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2019-06-19-great-start/</loc>
+    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cooble.github.io/posts/niceday/2019-04-04-niceday/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cooble.github.io/aboutme/</loc>
   </url><url>
     <loc>https://cooble.github.io/archives/</loc>
   </url><url>
-    <loc>https://cooble.github.io/categories/</loc>
-  </url><url>
-    <loc>https://cooble.github.io/posts/niceday/_posts/2019-11-23-gui/</loc>
-  </url><url>
-    <loc>https://cooble.github.io/posts/niceday/_posts/2019-08-12-dynamic-lights/</loc>
-  </url><url>
-    <loc>https://cooble.github.io/posts/niceday/_posts/2019-08-25-particles/</loc>
-  </url><url>
     <loc>https://cooble.github.io/search/</loc>
   </url><url>
     <loc>https://cooble.github.io/series/</loc>
-  </url><url>
-    <loc>https://cooble.github.io/posts/niceday/_posts/2019-06-19-great-start/</loc>
   </url>
 </urlset>

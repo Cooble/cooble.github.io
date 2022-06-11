@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>website on Cobble&#39;s Personal Blog</title>
+    <link>https://cooble.github.io/categories/website/</link>
+    <description>Recent content in website on Cobble&#39;s Personal Blog</description>
+    <image>
+      <url>https://cooble.github.io/papermod-cover.png</url>
+      <link>https://cooble.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/categories/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PaperMod Site Height Fix</title>
+      <link>https://cooble.github.io/posts/2022-06-02-hugo-height-fix/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cooble.github.io/posts/2022-06-02-hugo-height-fix/</guid>
+      <description>Ever since I caught a glimpse of the elegant PaperMod theme of Hugo static site builder, I knew I got to use it. While PaperMod theme is very slick and fast it has a few minor drawbacks, which need to be addressed.
+One of them being wrong height of the title page when navigation element is wrapped. This looks kinda cumbersome mainly on mobile devices, where, the page is just too high when no content is shown.</description>
+    </item>
+    
+  </channel>
+</rss>
