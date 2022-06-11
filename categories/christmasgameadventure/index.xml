@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ChristmasGameAdventure on Cobble&#39;s Personal Blog</title>
+    <link>https://cooble.github.io/categories/christmasgameadventure/</link>
+    <description>Recent content in ChristmasGameAdventure on Cobble&#39;s Personal Blog</description>
+    <image>
+      <url>https://cooble.github.io/papermod-cover.png</url>
+      <link>https://cooble.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 30 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/categories/christmasgameadventure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Christmas Game Adventure</title>
+      <link>https://cooble.github.io/posts/2017-07-30-christmas-game-adventure/</link>
+      <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cooble.github.io/posts/2017-07-30-christmas-game-adventure/</guid>
+      <description>I started working on this game circa 2 weeks before Xmas in 2016. You know, I was feeling festive and had a great deal of free time on my hands, so why not put my creativity into good use. My hopes, that I could put it under my Xmas tree, were mercilessly crushed, though.
+Writing the story, drawing all textures, dubbing the whole thing and coding the game engine itself had rendered itself not to be as straightforward as my young and feeble mind expected (surprisingly).</description>
+    </item>
+    
+  </channel>
+</rss>
