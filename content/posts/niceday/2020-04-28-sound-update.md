@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Great Sound Update
+title: Sun, Moon and Stars, Sound
 subtitle: one language is not enough
 date: 2020-04-28
 ShowToc: false
