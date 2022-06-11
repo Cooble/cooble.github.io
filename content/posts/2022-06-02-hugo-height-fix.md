@@ -2,8 +2,10 @@
 layout: post
 title: PaperMod Site Height Fix
 ShowToc: false
-
 tags: [hugo]
+ShowToc: false
+categories:
+- website
 date: 2022-06-02
 ---
 

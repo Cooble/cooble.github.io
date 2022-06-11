@@ -2,12 +2,12 @@
 layout: post
 title: ParticleSystem, Trees, Flowers, PlayerSprite
 subtitle: + Walking on steep floor, fullscreen
-gh-repo: cooble/niceday
-gh-badge: [star, fork, follow]
-tags: [niceday]
-comments: false
-bigimg: nd/25_08_2019.png?raw=true
-
+date: 2019-08-25
+ShowToc: false
+categories:
+- NiceDay
+cover:
+    image: https://github.com/Cooble/NiceDay/raw/master/screenshots/25_08_2019.png
 ---
 
 - Ability to walk on blocks which are 1high without jumping.     

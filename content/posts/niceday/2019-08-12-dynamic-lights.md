@@ -2,11 +2,12 @@
 layout: post
 title: Lights, Day/Night cycle, Entities
 subtitle: 
-gh-repo: cooble/niceday
-gh-badge: [star, fork, follow]
-tags: [niceday]
-comments: false
-bigimg: nd/12_08_2019.png?raw=true
+date: 2019-08-12
+ShowToc: false
+categories:
+- NiceDay
+cover:
+    image: https://github.com/Cooble/NiceDay/raw/master/screenshots/12_08_2019.png
 ---
 
 #### Multithreaded lights,  Inheritance Entity System (maybe will change to ECS in the future)(22_07_2019)  
@@ -14,16 +15,16 @@ bigimg: nd/12_08_2019.png?raw=true
 - Added basic physics system with polygon collision detection.  
 
 In the pic: The first entity after Player was (who would have guessed...) TNT!  
-![screenshot]({{site.nd}}22_07_2019_00.gif?raw=false&style=centerme)  
+![screenshot](https://github.com/Cooble/NiceDay/raw/master/screenshots/22_07_2019_00.gif#center)  
 
 In the pic: red Zombie attacks black Player.  (and then mysteriously disappears up in the sky)  
-![screenshot]({{site.nd}}22_07_2019_01.gif?raw=false&style=centerme)   
+![screenshot](https://github.com/Cooble/NiceDay/raw/master/screenshots/22_07_2019_01.gif#center)   
 
 #### Smooth wallLight vs edgy blockLight, Day/Night cycle (12_08_2019)  
 - Added dynamically created TextureAtlas.  
 - Added painting and multiblock structure support.  
 
-![Alt text]({{site.nd}}12_08_2019.png?raw=false&style=centerme)   
+![Alt text](https://github.com/Cooble/NiceDay/raw/master/screenshots/12_08_2019.png#center)   
 Oh, shoot!   
-![screenshot]({{site.nd}}12_08_2019.gif?raw=false&style=centerme) 
+![screenshot](https://github.com/Cooble/NiceDay/raw/master/screenshots/12_08_2019.gif#center) 
   
