@@ -3,7 +3,6 @@ layout: post
 title: PaperMod Site Height Fix
 ShowToc: false
 tags: [hugo]
-ShowToc: false
 categories:
 - website
 GitLink: https://github.com/Cooble/cooble.github.io
