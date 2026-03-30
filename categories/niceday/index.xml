@@ -1,113 +1,214 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>NiceDay on Cobble&#39;s Personal Blog</title>
+    <title>NiceDay on Cooble&#39;s Personal Blog</title>
     <link>https://cooble.github.io/categories/niceday/</link>
-    <description>Recent content in NiceDay on Cobble&#39;s Personal Blog</description>
+    <description>Recent content in NiceDay on Cooble&#39;s Personal Blog</description>
     <image>
+      <title>Cooble&#39;s Personal Blog</title>
       <url>https://cooble.github.io/papermod-cover.png</url>
       <link>https://cooble.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/categories/niceday/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cooble.github.io/categories/niceday/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auto Block Digging, Translator and UTF-8</title>
       <link>https://cooble.github.io/posts/niceday/2021-01-26-block-dig-utf8/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2021-01-26-block-dig-utf8/</guid>
-      <description>(Well it&amp;rsquo;s been some time I&amp;rsquo;m aware&amp;hellip; well college and stuff.., was little busy.) Anyway some improvements were made.
-New Language selector screen was added. Translator and UTF-8 First big thing is Translator which is simple static class that offers method translate(String&amp;amp; key)(obviously). Usually it&amp;rsquo;s good thing to separate strings that are shown to user from strings in source code, preferably store them in some .txt file. Also adding another language is as simple as adding another lang file and registering the language in code.</description>
+      <description>&lt;p&gt;(Well it&amp;rsquo;s been some time I&amp;rsquo;m aware&amp;hellip; well college and stuff.., was little busy.)
+Anyway some improvements were made.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New Language selector screen was added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;translator-and-utf-8&#34;&gt;Translator and UTF-8&lt;/h4&gt;
+&lt;p&gt;First big thing is Translator which is simple static class that offers method &lt;code&gt;translate(String&amp;amp; key)&lt;/code&gt;(obviously).
+Usually it&amp;rsquo;s good thing to separate strings that are shown to user from strings in source code, preferably store them in some .txt file.
+Also adding another language is as simple as adding another lang file and registering the language in code.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>3D Editor Update</title>
       <link>https://cooble.github.io/posts/niceday/2020-09-25-3d-editor-update/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2020-09-25-3d-editor-update/</guid>
-      <description>Gotta admit that in this update there was really not much in Terraria clone (Sandbox project). Nevertheless here are some minor tweaks for the Terraria clone:
-Optimized Particle renderer Fixed particle fadeaway effect Once again added support for spawning particles using Lua. Now for the many new things in the engine itself (NiceDay project): Mono C#, Added crude support for using C# as another scripting language (apart form Lua) If hotswaps are enabled, application will look every second at Managed.</description>
+      <description>&lt;p&gt;Gotta admit that in this update there was really not much in Terraria clone (Sandbox project).
+Nevertheless here are some minor tweaks for the Terraria clone:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimized Particle renderer&lt;/li&gt;
+&lt;li&gt;Fixed particle fadeaway effect&lt;/li&gt;
+&lt;li&gt;Once again added support for spawning particles using Lua.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;now-for-the-many-new-things-in-the-engine-itself-niceday-project&#34;&gt;Now for the many new things in the engine itself (NiceDay project):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Mono C#, Added crude support for using C# as another scripting language (apart form Lua)
+&lt;ul&gt;
+&lt;li&gt;If hotswaps are enabled, application will look every second at Managed.dll file to see if new version is available to reaload it. That&amp;rsquo;s very useful for development, in Dist HotSwap should be disabled.&lt;/li&gt;
+&lt;li&gt;Currently supports adding C# Layers which look similar to C++ Application layers (In the future, ECS will be bound to C# as well).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NBT supports glm::vec&amp;lt;size,float&amp;gt;, that means that things like &lt;code&gt;nbt[&amp;quot;pos&amp;quot;]=glm::vec3(0.f);&lt;/code&gt; are possible&lt;/li&gt;
+&lt;li&gt;Fixed textureAtlas (huge memory leak and to some extension optimized)&lt;/li&gt;
+&lt;li&gt;Added ECS using lib entt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;now-for-the-many-new-things-in-3d-editor-sandboxtest-project&#34;&gt;Now for the many new things in 3D Editor (SandboxTest project):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The most important thing is of course the change of ImGui style (to resemble a certain 3D editor)&lt;/li&gt;
+&lt;li&gt;Customizable and persistent layouts. (no longer need to change the size and pos of window at every start)&lt;/li&gt;
+&lt;li&gt;Windows can be resized and even hidden and shown using View tab option&lt;/li&gt;
+&lt;li&gt;Editor windows:
+&lt;ul&gt;
+&lt;li&gt;Material bar to show and create new materials (change their properties == uniforms),(materials are bound to a shader which can be changed and reloaded on the go)&lt;/li&gt;
+&lt;li&gt;Mesh bar to show and load new meshes (from .fbx or .obj. or binary) (binary file can be created from already loaded model to dramatically speed up loading in the future)&lt;/li&gt;
+&lt;li&gt;Scene Window to manage all models, lights, cameras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scene entities are composed of entt components. Also they can be moved, scaled and rotated in the editor.&lt;/li&gt;
+&lt;li&gt;no scene serilization yet :(&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Alt text&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/25_09_2020_scene_editor.png?raw=false&#34; title=&#34;Scene Editor&#34;&gt;
+&lt;img alt=&#34;Alt text&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/25_09_2020_mat_editor_0.png?raw=false&#34; title=&#34;Material Editor 0&#34;&gt;
+&lt;img alt=&#34;Alt text&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/25_09_2020_mat_editor_1.png?raw=false&#34; title=&#34;Material Editor 1&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JSONification of Blocks, Docking</title>
       <link>https://cooble.github.io/posts/niceday/2020-07-14-json-blocks/</link>
       <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2020-07-14-json-blocks/</guid>
-      <description>The amount of data in blocks.cpp has become impossible to maintain. I decided to outsource the data to json files located in res/registry. There is no space in cpp code for that! To add new block, one no longer needs to write an entry in header file as well as cpp files. To add a new block: 1. add entry to blocks.ids (choose unique id for the block) 2. add json map object to blocks.</description>
+      <description>&lt;p&gt;The amount of data in blocks.cpp has become impossible to maintain.
+I decided to outsource the data to json files located in
+res/registry. There is no space in cpp code for that!
+To add new block, one no longer needs to write an entry in header file as
+well as cpp files.
+To add a new block:
+1. add entry to blocks.ids (choose unique id for the block)
+2. add json map object to blocks.json
+3. fill the object with desired attributes (hardness,
+lightSrc&amp;hellip;)
+4. CPP version can be still used nevertheless alongside with
+json: just specify blank constructor with string block_id, all
+of the attributes get copied from json file so one can focus solely
+on overriding functions.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sun, Moon and Stars, Sound</title>
       <link>https://cooble.github.io/posts/niceday/2020-04-28-sound-update/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2020-04-28-sound-update/</guid>
-      <description>Well, it has been 5 months since last TIMELINE entry, but that doesn&amp;rsquo;t mean that I haven&amp;rsquo;t done anything, not even close! As it&amp;rsquo;s obvious from the title Engine now finally has full Sound support. There are three main parts to this madness:
-libogg (for loading sound streams) libvorbis (for decoding ogg sound streams) and finally portaudio to play the data and yeah of course the thing I wrote&amp;hellip; Gotta admit that I was considering using some already available sound engines, mainly OpenAL but since it&amp;rsquo;s not entirely free to use (API is, implementation is not) I decided to write my own.</description>
+      <description>&lt;p&gt;Well, it has been 5 months since last TIMELINE entry, but that doesn&amp;rsquo;t mean that I haven&amp;rsquo;t done anything, not even close!
+As it&amp;rsquo;s obvious from the title Engine now finally has full Sound support. There are three main parts to this madness:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;libogg&lt;/strong&gt; (for loading sound streams)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;libvorbis&lt;/strong&gt; (for decoding ogg sound streams)&lt;/li&gt;
+&lt;li&gt;and finally &lt;strong&gt;portaudio&lt;/strong&gt; to play the data&lt;/li&gt;
+&lt;li&gt;and yeah of course the thing I wrote&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Gotta admit that I was considering using some already available sound engines, mainly OpenAL but since it&amp;rsquo;s not entirely free to use (API is, implementation is not) I decided to write my own. To put it simply there were few requirements:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lua, Items and XMas</title>
       <link>https://cooble.github.io/posts/niceday/2019-12-24-lua/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2019-12-24-lua/</guid>
-      <description>Even though adding scripting language to the engine was in DEEP FUTURE plans, once I realized how easy it would be to just rewrite one text line, hit enter and spawn particles with slightly tweaked velocities instead of recompiling the whole game again I finally decided that that time had come. Ladies and gentlemen, Brace yourself for&amp;hellip;
-The Story of adding Lua: Adding lua itself was the easiest thing, simply add statically native lua lib and that was it, then I used ConsoleWindow template found in imgui_demo.</description>
+      <description>&lt;p&gt;Even though adding scripting language to the engine was in DEEP FUTURE plans, once I realized how easy it would be to just rewrite one text line, hit enter and spawn particles with slightly tweaked velocities instead of recompiling the whole game again I finally decided that that time had come. Ladies and gentlemen, Brace yourself for&amp;hellip;&lt;/p&gt;
+&lt;h4 id=&#34;the-story-of-adding-lua&#34;&gt;The Story of adding Lua:&lt;/h4&gt;
+&lt;p&gt;Adding lua itself was the easiest thing, simply add statically native lua lib and that was it, then I used ConsoleWindow template found in imgui_demo.cpp and suddenly I could use Lua console within the game itself :D&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GUI Module (Engine)</title>
       <link>https://cooble.github.io/posts/niceday/2019-11-23-gui/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2019-11-23-gui/</guid>
-      <description>We all know that making a GUI from scratch can be truly difficult and time consuming and maybe even boring, it would make sense then if engine provided such a thing, wouldn&amp;rsquo;t it? Ok, Ok, lets do it&amp;hellip; (I could have just used IMGUI but&amp;hellip;)
-Basic GUI module in engine (13_11_2019) in order to start with inventory, one must create some sort of GUI before&amp;hellip; currently contains Windows (which can overlap), Label, Button, CheckBox, TextBox, HorizontalSlider and Image + layouts: (Column, Row, Grid) There is one GUIContext which cares about parent-child structure and events of GUIElements and GUIRenderer, which renders those elements positions are relative to the parental element currently no resizability to change a color, one has to change the GUIRenderer Advanced GUI in engine (23_11_2019) Added view, (which is rendered to another texture before being rendered on the screen) Better text render, added kerning!</description>
+      <description>&lt;p&gt;We all know that making a GUI from scratch can be truly difficult and time consuming and maybe even boring, it would make sense then if engine provided such a thing, wouldn&amp;rsquo;t it? &lt;strong&gt;Ok, Ok, lets do it&amp;hellip;&lt;/strong&gt; (I could have just used IMGUI but&amp;hellip;)&lt;/p&gt;
+&lt;h4 id=&#34;basic-gui-module-in-engine-13_11_2019&#34;&gt;Basic GUI module in engine (13_11_2019)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;in order to start with inventory, one must create some sort of GUI before&amp;hellip;&lt;/li&gt;
+&lt;li&gt;currently contains Windows (which can overlap), Label, Button, CheckBox, TextBox, HorizontalSlider and Image + layouts: (Column, Row, Grid)&lt;/li&gt;
+&lt;li&gt;There is one GUIContext which cares about parent-child structure and events of GUIElements and GUIRenderer, which renders those elements&lt;/li&gt;
+&lt;li&gt;positions are relative to the parental element&lt;/li&gt;
+&lt;li&gt;currently no resizability&lt;/li&gt;
+&lt;li&gt;to change a color, one has to change the GUIRenderer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/13_11_2019.png#center&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ParticleSystem, Trees, Flowers, PlayerSprite</title>
       <link>https://cooble.github.io/posts/niceday/2019-08-25-particles/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2019-08-25-particles/</guid>
-      <description>Ability to walk on blocks which are 1high without jumping. Player has a walk animation. Added entity health bar. Crude ParticleSystem using BatchRenderer2D temporarily, will have its own renderer with shader in the future. Can do 3500 particles without a problem. Added multiblock structure = tree and its generator. After placing a sapling block, sapling tile entity counts the worldtime and then calls TreeGen. Trees have random number of branches(dry or normal) and random corona.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ability to walk on blocks which are 1high without jumping.&lt;/li&gt;
+&lt;li&gt;Player has a walk animation.&lt;/li&gt;
+&lt;li&gt;Added entity health bar.&lt;/li&gt;
+&lt;li&gt;Crude ParticleSystem using BatchRenderer2D temporarily, will have its own renderer with shader in the future. Can do 3500 particles without a problem.&lt;/li&gt;
+&lt;li&gt;Added multiblock structure = tree and its generator. After placing a sapling block, sapling tile entity counts the worldtime and then calls TreeGen. Trees have random number of branches(dry or normal) and random corona.&lt;/li&gt;
+&lt;li&gt;Everybody loves flowers. and graaasss. (Sheep are in sight :D)&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Lights, Day/Night cycle, Entities</title>
       <link>https://cooble.github.io/posts/niceday/2019-08-12-dynamic-lights/</link>
       <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2019-08-12-dynamic-lights/</guid>
-      <description>Multithreaded lights, Inheritance Entity System (maybe will change to ECS in the future)(22_07_2019) Added NBT to save and load entities. (No entity saving yet, though.) Added basic physics system with polygon collision detection. In the pic: The first entity after Player was (who would have guessed&amp;hellip;) TNT!
-In the pic: red Zombie attacks black Player. (and then mysteriously disappears up in the sky)
-Smooth wallLight vs edgy blockLight, Day/Night cycle (12_08_2019) Added dynamically created TextureAtlas.</description>
+      <description>&lt;h4 id=&#34;multithreaded-lights--inheritance-entity-system-maybe-will-change-to-ecs-in-the-future22_07_2019&#34;&gt;Multithreaded lights,  Inheritance Entity System (maybe will change to ECS in the future)(22_07_2019)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Added NBT to save and load entities. (No entity saving yet, though.)&lt;/li&gt;
+&lt;li&gt;Added basic physics system with polygon collision detection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the pic: The first entity after Player was (who would have guessed&amp;hellip;) TNT!&lt;br&gt;
+&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/22_07_2019_00.gif#center&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the pic: red Zombie attacks black Player.  (and then mysteriously disappears up in the sky)&lt;br&gt;
+&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/22_07_2019_01.gif#center&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;smooth-walllight-vs-edgy-blocklight-daynight-cycle-12_08_2019&#34;&gt;Smooth wallLight vs edgy blockLight, Day/Night cycle (12_08_2019)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Added dynamically created TextureAtlas.&lt;/li&gt;
+&lt;li&gt;Added painting and multiblock structure support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Alt text&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/12_08_2019.png#center&#34;&gt;&lt;br&gt;
+Oh, shoot!&lt;br&gt;
+&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/12_08_2019.gif#center&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Great Start</title>
       <link>https://cooble.github.io/posts/niceday/2019-06-19-great-start/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2019-06-19-great-start/</guid>
-      <description>Pictured changelog
-Basic tile render (03_05_2019) Corner tile render (06_05_2019) Lighting prototype with water-spill-algorithm (18_05_2019) Platforms, grass, sky (20_05_2019) Blocks, Walls, Background (26_05_2019) Colorful block corners, glass, procedural chunk generation (14_06_2019) Dynamic and Cached monochromatic lighting system (19_06_2019) Cached lighting is only calculated onBlockChange </description>
+      <description>&lt;p&gt;Pictured changelog&lt;/p&gt;
+&lt;h4 id=&#34;basic-tile-render-03_05_2019&#34;&gt;Basic tile render (03_05_2019)&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/03_05_2019.png#center&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;corner-tile-render-06_05_2019&#34;&gt;Corner tile render (06_05_2019)&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/06_05_2019.png#center&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;lighting-prototype-with-water-spill-algorithm-18_05_2019&#34;&gt;Lighting prototype with water-spill-algorithm (18_05_2019)&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/18_05_2019.png#center&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;platforms-grass-sky-20_05_2019&#34;&gt;Platforms, grass, sky (20_05_2019)&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/20_05_2019.png#center&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;blocks-walls-background-26_05_2019&#34;&gt;Blocks, Walls, Background (26_05_2019)&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/26_05_2019.png#center&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;colorful-block-corners-glass-procedural-chunk-generation-14_06_2019&#34;&gt;Colorful block corners, glass, procedural chunk generation (14_06_2019)&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/14_06_2019.png#center&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;dynamic-and-cached-monochromatic-lighting-system-19_06_2019&#34;&gt;Dynamic and Cached monochromatic lighting system (19_06_2019)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Cached lighting is only calculated onBlockChange&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/Cooble/NiceDay/raw/master/screenshots/19_06_2019.png#center&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>NiceDay</title>
       <link>https://cooble.github.io/posts/niceday/2019-04-04-niceday/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/niceday/2019-04-04-niceday/</guid>
-      <description>Let&amp;rsquo;s make Terraria in C++!
-I decided to make a &amp;ldquo;simple&amp;rdquo; clone of Terraria in C++ using my own engine which is being created on the go. I decided to create this game/engine in order to improve my programming skills in C++ and see, how &amp;ldquo;easy&amp;rdquo; it is to recreate such a popular 2D pixelart-ish game in C++ with only a &amp;ldquo;few&amp;rdquo; 3rd party libraries. Well, if there is a hell in the world&amp;hellip; I think I&amp;rsquo;ve found it.</description>
+      <description>&lt;p dir=&#34;auto&#34;&gt;&lt;a href=&#34;https://github.com/Cooble/NiceDay/actions/workflows/build_sandbox_and_test_w64.yml&#34;&gt;&lt;img src=&#34;https://github.com/Cooble/NiceDay/actions/workflows/build_sandbox_and_test_w64.yml/badge.svg?branch=master&#34; alt=&#34;build_sandbox_and_test_w64&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s make Terraria in C++!&lt;br&gt;
+I decided to make a &amp;ldquo;simple&amp;rdquo; clone of Terraria in C++ using my own engine which is being created on the go.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I decided to create this game/engine in order to improve my programming skills in C++ and see,
+how &amp;ldquo;easy&amp;rdquo; it is to recreate such a popular 2D pixelart-ish game in C++ with only a &amp;ldquo;few&amp;rdquo; 3rd party libraries.
+Well, if there is a hell in the world&amp;hellip; I think I&amp;rsquo;ve found it.&lt;br&gt;
+Also this project focuses on Terraria clone as well as on &amp;ldquo;universal&amp;rdquo; 3D engine,
+so updates in category &lt;a href=&#34;https://cooble.github.io/categories/niceday/&#34;&gt;NiceDay&lt;/a&gt; are from both.
+And yes, I like to use &amp;lsquo;&amp;quot;&amp;rsquo; a lot.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Cobble&#39;s Personal Blog</title>
+    <title>Categories on Cooble&#39;s Personal Blog</title>
     <link>https://cooble.github.io/categories/</link>
-    <description>Recent content in Categories on Cobble&#39;s Personal Blog</description>
+    <description>Recent content in Categories on Cooble&#39;s Personal Blog</description>
     <image>
+      <title>Cooble&#39;s Personal Blog</title>
       <url>https://cooble.github.io/papermod-cover.png</url>
       <link>https://cooble.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cooble.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>website</title>
+      <title>Website</title>
       <link>https://cooble.github.io/categories/website/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/categories/website/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NiceDay</title>
       <link>https://cooble.github.io/categories/niceday/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/categories/niceday/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ChristmasGameAdventure</title>
       <link>https://cooble.github.io/categories/christmasgameadventure/</link>
       <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/categories/christmasgameadventure/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

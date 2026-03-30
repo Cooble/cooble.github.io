@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ChristmasGameAdventure on Cobble&#39;s Personal Blog</title>
+    <title>ChristmasGameAdventure on Cooble&#39;s Personal Blog</title>
     <link>https://cooble.github.io/categories/christmasgameadventure/</link>
-    <description>Recent content in ChristmasGameAdventure on Cobble&#39;s Personal Blog</description>
+    <description>Recent content in ChristmasGameAdventure on Cooble&#39;s Personal Blog</description>
     <image>
+      <title>Cooble&#39;s Personal Blog</title>
       <url>https://cooble.github.io/papermod-cover.png</url>
       <link>https://cooble.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 30 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://cooble.github.io/categories/christmasgameadventure/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cooble.github.io/categories/christmasgameadventure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Christmas Game Adventure</title>
       <link>https://cooble.github.io/posts/2017-07-30-christmas-game-adventure/</link>
       <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://cooble.github.io/posts/2017-07-30-christmas-game-adventure/</guid>
-      <description>I started working on this game circa 2 weeks before Xmas in 2016. You know, I was feeling festive and had a great deal of free time on my hands, so why not put my creativity into good use. My hopes, that I could put it under my Xmas tree, were mercilessly crushed, though.
-Writing the story, drawing all textures, dubbing the whole thing and coding the game engine itself had rendered itself not to be as straightforward as my young and feeble mind expected (surprisingly).</description>
+      <description>&lt;p&gt;I started working on this game circa 2 weeks before Xmas in 2016. You know, I was feeling festive and had a great deal of free time on my hands, so why not put my creativity into good use. My hopes, that I could put it under my Xmas tree, were mercilessly crushed, though.&lt;/p&gt;
+&lt;p&gt;Writing the story, drawing all textures, dubbing the whole thing and coding the game engine itself had  rendered itself not to be as straightforward as my young and feeble mind expected (surprisingly).
+After sudden realization (on 24th) that I&amp;rsquo;d unable to finish that madness in time I stashed the project and forgot about it. Nevertheless, thanks to a game jam sort of competition on &lt;a href=&#34;https://www.itnetwork.cz/java/oop/zdrojove-kody/vanocni-adventura&#34;&gt;ITNetwork Summer 2017&lt;/a&gt; I found a freshly burning courage to revive my inner strength to work on it again and this motivation in the end won me a 2nd place at the competition. Hurray.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
